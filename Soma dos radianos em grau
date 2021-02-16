@@ -1,0 +1,9 @@
+soma = 0
+quantidade = int(input('quantidade'))
+for c in range(1, quantidade+1): #laço
+    rad = int(input('rad: '))
+    rad_razão = int(input('rad razão: '))
+    grau = rad*180/rad_razão
+    soma += grau
+    print(grau)
+print(f'sua soma é {soma}')
